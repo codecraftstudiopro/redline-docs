@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Torque Theme Documentation</title>
-<meta name="description" content="Setup guide, vehicle finder, fitment tags, sections and FAQ for the Torque Shopify theme.">
+<title>Redline Theme Documentation</title>
+<meta name="description" content="Setup guide, vehicle finder, fitment tags, sections and FAQ for the Redline Shopify theme.">
 <style>
   :root {
     --bg: #f4f4f1; --surface: #ffffff; --text: #14171a; --muted: #5b6168; --border: #dcddd9;
@@ -68,7 +68,7 @@
 <body>
 <header class="top">
   <div class="inner">
-    <a class="brand" href="#top">Torque<span>/</span> Docs</a>
+    <a class="brand" href="#top">Redline<span>/</span> Docs</a>
     <nav aria-label="Primary">
       <a href="#start">Get started</a>
       <a href="#vehicle-finder">Vehicle finder</a>
@@ -99,8 +99,8 @@
   </aside>
 
   <main>
-    <h1>Torque documentation</h1>
-    <p class="lead">Torque is a Shopify theme for auto parts, accessories and tools stores. Shoppers pick their vehicle once, and every product then tells them if it fits. No apps needed.</p>
+    <h1>Redline documentation</h1>
+    <p class="lead">Redline is a Shopify theme for auto parts, accessories and tools stores. Shoppers pick their vehicle once, and every product then tells them if it fits. No apps needed.</p>
 
     <div class="grid">
       <div class="card"><h3>Vehicle finder</h3><p class="muted">Year, make and model search powered by product tags and Shopify's native filtering.</p></div>
@@ -110,7 +110,7 @@
 
     <h2 id="start">Get started</h2>
     <ol>
-      <li>In your Shopify admin, go to <strong>Online Store &gt; Themes</strong>. Add Torque from the Theme Store, or click <strong>Customize</strong> on Torque if it is already in your library.</li>
+      <li>In your Shopify admin, go to <strong>Online Store &gt; Themes</strong>. Add Redline from the Theme Store, or click <strong>Customize</strong> on Redline if it is already in your library.</li>
       <li>Open <strong>Theme settings &gt; Vehicle finder</strong> and replace the sample list with the vehicles you sell parts for. See <a href="#vehicle-finder">Vehicle finder</a>.</li>
       <li>Tag your products with the vehicles they fit. Use the free <a href="#tag-generator">tag generator</a> to build the tags.</li>
       <li>Set your logo, colors and fonts in <strong>Theme settings</strong>, then build your homepage with the sections described below.</li>
@@ -124,7 +124,7 @@
 Toyota | Camry | 2012-2024
 Ford | F-150 | 2015-2024
 BMW | 3 Series | 2012-2023</pre>
-    <p>The finder builds its year, make and model dropdowns from this list. When a shopper searches, Torque opens your results collection filtered by the matching fitment tag, for example <code>/collections/all/fit-toyota-camry-2019</code>. This uses Shopify's built-in tag filtering, so it is fast and needs no app.</p>
+    <p>The finder builds its year, make and model dropdowns from this list. When a shopper searches, Redline opens your results collection filtered by the matching fitment tag, for example <code>/collections/all/fit-toyota-camry-2019</code>. This uses Shopify's built-in tag filtering, so it is fast and needs no app.</p>
     <div class="table-wrap"><table>
       <thead><tr><th>Setting</th><th>What it does</th></tr></thead>
       <tbody>
@@ -154,7 +154,7 @@ BMW | 3 Series | 2012-2023</pre>
       </tbody>
     </table></div>
     <p>The make and model in the tag must match the vehicle list, written in lowercase with spaces and symbols replaced by hyphens. <code>F-150</code> becomes <code>f-150</code> and <code>3 Series</code> becomes <code>3-series</code>.</p>
-    <p>Torque groups the year tags into ranges in the <strong>Vehicle fitment</strong> table on the product page, for example "2015–2018, 2020".</p>
+    <p>Redline groups the year tags into ranges in the <strong>Vehicle fitment</strong> table on the product page, for example "2015–2018, 2020".</p>
 
     <h2 id="tag-generator">Fitment tag generator</h2>
     <p>Paste the vehicles a product fits, one per line, then copy the tags into the product's <strong>Tags</strong> field or into the <code>Tags</code> column of your product CSV.</p>
@@ -185,7 +185,7 @@ Toyota | RAV4 | 2019-2024</textarea>
     </ul>
 
     <h2 id="product-data">Part numbers, specs and downloads</h2>
-    <p>Torque reads these product metafields. Create them in <strong>Settings &gt; Custom data &gt; Products</strong> with the exact namespace and key:</p>
+    <p>Redline reads these product metafields. Create them in <strong>Settings &gt; Custom data &gt; Products</strong> with the exact namespace and key:</p>
     <div class="table-wrap"><table>
       <thead><tr><th>Metafield</th><th>Type</th><th>Used for</th></tr></thead>
       <tbody>
@@ -248,13 +248,13 @@ Toyota | RAV4 | 2019-2024</textarea>
     <p>Choose your menu in the <strong>Header</strong> section. A top-level item opens as a full-width mega menu when it has three levels (for example Shop parts &gt; Maintenance &gt; Brakes). Add a <strong>Mega menu promo</strong> block to the header and type the top-level item's title to show a promo card inside that menu.</p>
 
     <h2 id="faq">FAQ</h2>
-    <details class="faq"><summary>Do I need an app for year, make and model search?</summary><p>No. Torque uses its vehicle list setting and product tags with Shopify's native filtering. You avoid a monthly app fee.</p></details>
+    <details class="faq"><summary>Do I need an app for year, make and model search?</summary><p>No. Redline uses its vehicle list setting and product tags with Shopify's native filtering. You avoid a monthly app fee.</p></details>
     <details class="faq"><summary>How many vehicles can I add?</summary><p>As many as you like. Keep each line in the <code>Make | Model | Years</code> format. Very large catalogs can split vehicles across collections and set a results collection per section.</p></details>
     <details class="faq"><summary>A vehicle shows "No parts are listed yet". Why?</summary><p>No product has the matching year tag yet. Check the spelling with the tag generator. For example a 2019 Toyota Camry needs <code>fit-toyota-camry-2019</code>.</p></details>
-    <details class="faq"><summary>Can I use Torque for a store without vehicles, like tools or hardware?</summary><p>Yes. Turn off <strong>Enable vehicle finder</strong> in Theme settings. Every other feature, including quick order lists and spec tabs, keeps working.</p></details>
+    <details class="faq"><summary>Can I use Redline for a store without vehicles, like tools or hardware?</summary><p>Yes. Turn off <strong>Enable vehicle finder</strong> in Theme settings. Every other feature, including quick order lists and spec tabs, keeps working.</p></details>
     <details class="faq"><summary>Does the delivery estimate use fake countdowns?</summary><p>No. It uses your real dispatch cutoff time and your store's time zone, and shows an honest delivery window.</p></details>
     <details class="faq"><summary>How do I show reviews?</summary><p>Install any reviews app that supports app blocks, then add its block to the product page. Star ratings on cards read Shopify's standard rating metafield.</p></details>
-    <details class="faq"><summary>Is Torque translatable?</summary><p>Yes. All storefront text is in the theme's locale file and can be edited in <strong>Online Store &gt; Themes &gt; Edit default theme content</strong> or translated with Shopify Translate and Adapt.</p></details>
+    <details class="faq"><summary>Is Redline translatable?</summary><p>Yes. All storefront text is in the theme's locale file and can be edited in <strong>Online Store &gt; Themes &gt; Edit default theme content</strong> or translated with Shopify Translate and Adapt.</p></details>
 
     <h2 id="support">Support</h2>
     <p>We reply within two business days, usually much sooner. Please include your store URL, the page where you see the problem and a screenshot.</p>
@@ -266,7 +266,7 @@ Toyota | RAV4 | 2019-2024</textarea>
   </main>
 </div>
 
-<footer class="bottom">Torque theme by CodeCraftStudio</footer>
+<footer class="bottom">Redline theme by CodeCraftStudio</footer>
 
 <script>
 (() => {
